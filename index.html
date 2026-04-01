@@ -1,2 +1,47 @@
-# pedidos-gas
-Pedidos online con puntos para clientes
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ryan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Pantalla inicial -->
+<div id="intro">
+  <div class="logoR">R</div>
+</div>
+
+<!-- Contenido principal -->
+<div id="main" class="hidden">
+
+  <div class="header">
+    <div class="logo-mini">Ryan</div>
+  </div>
+
+  <div class="menu">
+    <button onclick="mostrar('pedidos')">Pedidos</button>
+    <button onclick="mostrar('puntos')">Ver puntos</button>
+    <button onclick="mostrar('regalos')">Regalos</button>
+  </div>
+
+  <!-- Secciones -->
+  <div id="pedidos" class="section hidden">
+    <h2>Pedidos</h2>
+    <p>Aquí irá el formulario luego 🔥</p>
+  </div>
+
+  <div id="puntos" class="section hidden">
+    <h2>Tus puntos</h2>
+    <p>Historial (próximamente)</p>
+  </div>
+
+  <div id="regalos" class="section hidden">
+    <h2>Regalos</h2>
+    <p>Canjea tus puntos</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
